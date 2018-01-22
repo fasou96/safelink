@@ -1,1 +1,23 @@
-eval(atob("LyohIFdQIFNhZmVsaW5rIHYyLjMgfCBNYXNnYSBTYXRyaWEgV2lyYXdhbiB8IGpRdWVyeSBSZXF1aXJlZCAqL2Z1bmN0aW9uIFdQX1NhZmVsaW5rZXIoJHNlbGVjdG9yLCAkZXhjZXB0LCAkZGVidWcpe2lmKHR5cGVvZihqUXVlcnkpICE9PSAidW5kZWZpbmVkIil7JGRlYnVnID0gdHlwZW9mKCRkZWJ1ZykgPT09ICJ1bmRlZmluZWQiID8gZmFsc2UgOiAkZGVidWc7dmFyICRodG1sID0gKCRzZWxlY3RvciA9PT0gIiIgfHwgdHlwZW9mKCRzZWxlY3RvcikgPT09ICJ1bmRlZmluZWQiIHx8ICRzZWxlY3RvciA9PT0gbnVsbCkgPyBqUXVlcnkoImJvZHkiKSA6IGpRdWVyeSgkc2VsZWN0b3IpO3ZhciAkYW5jaG9yID0gJGh0bWwuZmluZCgiYSIpO2lmKHR5cGVvZigkZXhjZXB0KSAhPT0gInVuZGVmaW5lZCIpe3ZhciAkZXhjZXB0cyA9IFtsb2NhdGlvbi5ob3N0LCAibGFuanV0aW5hamEubmV0IiwgbG9jYXRpb24uaG9zdG5hbWVdO2pRdWVyeSgkZXhjZXB0LCBmdW5jdGlvbihpbmRleCwgZXhjZXB0KXskZXhjZXB0cy5wdXNoKGV4Y2VwdCk7fSk7JGV4Y2VwdCA9ICRleGNlcHRzO31lbHNleyRleGNlcHQgPSBbbG9jYXRpb24uaG9zdCwgImxhbmp1dGluYWphLm5ldCIsIGxvY2F0aW9uLmhvc3RuYW1lXTt9alF1ZXJ5LmVhY2goJGFuY2hvciwgZnVuY3Rpb24oaW5kZXgsIGFuY2hvcil7dmFyICR0ZXN0ID0gZmFsc2U7dmFyICRocmVmID0gYW5jaG9yLmhyZWY7dmFyICRibGFuaz0gLyMvZy50ZXN0KCRocmVmKTtqUXVlcnkuZWFjaCgkZXhjZXB0LCBmdW5jdGlvbihpbmRleCwgcmVnZXgpe3ZhciByZWcgPSBuZXcgUmVnRXhwKHJlZ2V4LCAiZyIpOyR0ZXN0ID0gcmVnLnRlc3QoJGhyZWYpO2lmKCR0ZXN0KXtyZXR1cm4gZmFsc2U7fX0pO3ZhciAkZW5rb2RlID0gZW5jb2RlVVJJQ29tcG9uZW50KCRocmVmKTt2YXIgJGRhdGEgPSBidG9hKCRlbmtvZGUpO3ZhciAkb3JpZ2luID0gImxhbmp1dGluYWphLm5ldCI7dmFyICRwcm90b2tvbCA9ICJodHRwOi8vIjtpZighJHRlc3QgJiYgISRibGFuayAmJiAoJGhyZWYgIT09ICIiIHx8ICRocmVmICE9PSBudWxsKSl7dmFyICRzYWZlbGluayA9ICRwcm90b2tvbCArICRvcmlnaW4gKyAiLz91PSIgKyAkZGF0YTthbmNob3IuaHJlZiA9ICRzYWZlbGluazt9aWYoYW5jaG9yLmhyZWYgPT09ICRzYWZlbGluayAmJiAkZGVidWcpe2lmKHR5cGVvZihjb25zb2xlKSAhPT0gInVuZGVmaW5lZCIpe2NvbnNvbGUubG9nKCJTdWNjZXNzIGNvbnZlcnQgIiArICRocmVmICsgIiB0byAiICsgJHNhZmVsaW5rKTt9fX0pO2lmKHR5cGVvZihjb25zb2xlKSAhPT0gInVuZGVmaW5lZCIpe2NvbnNvbGUubG9nKCJEb25lIGNvbnZlcnQgbGlua3MgdG8gV1AgU2FmZWxpbmshIik7fX1lbHNle2lmKHR5cGVvZihjb25zb2xlKSAhPT0gInVuZGVmaW5lZCIpe2NvbnNvbGUubG9nKCJqUXVlcnkgbXVzdCBpbnN0YWxsZWQgZmlyc3QhIik7fX19aWYodHlwZW9mKGNvbnNvbGUpICE9PSAidW5kZWZpbmVkIil7Y29uc29sZS5sb2coIlBvd2VyZWQgYnkgV1AgU2FmZWxpbmtlciB2Mi4zLiBQcm90ZWN0IHlvdXIgbGlua3MgYW5kIGdldCBiYW5lZml0cyEiKTt9"));
+console.log('Powered by WP Safelink 3. Protect your links and get banefits!');
+if(window._wp_safelink_except){
+	window._wp_safelink_except.push('lanjutinaja.net');
+	window._wp_safelink_except.push(location.host);
+}else{
+	window._wp_safelink_except = ['lanjutinaja.net', location.host];
+}
+window.parseUrl = function(string){
+	return /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/.exec(string);
+}
+window._wp_safelink = function(){
+	var anchors = document.querySelectorAll('a[href]');
+	anchors.forEach(function(anchor){
+		var url = 'http://lanjutinaja.net/safelink/api/?data=';
+		var parse = window.parseUrl(anchor.href);
+		var origin = parse[3];
+		var check = false;
+		if(origin && window._wp_safelink_except.indexOf(origin) === -1){
+			anchor.href = url + btoa(encodeURIComponent(anchor.href)) + ".ref";
+		}
+	});
+}
+window._wp_safelink();
